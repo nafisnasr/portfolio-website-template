@@ -1,0 +1,16 @@
+/* title section styles */
+
+.titlesection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1.3rem 0rem;
+    color: var(--white);
+}
+.titlesection .title{
+    border-bottom: 1px solid var(--white);
+    padding: 0.7rem 0rem;
+}
+
+/**/

@@ -1,0 +1,23 @@
+/* Service Box Styles */
+.service-box {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+.service-box img {
+  width: 70px;
+  margin: 1rem 0rem;
+}
+.service-box .text {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.service-box .title{
+    font-weight: bold;
+}
+/**/

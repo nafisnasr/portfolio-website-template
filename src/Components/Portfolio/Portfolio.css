@@ -1,0 +1,13 @@
+/* Portfolio Styles */
+.portfolio{
+    padding: 2rem;
+    background-color: var(--purple);
+}
+.portfolio .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+}
+
+/**/

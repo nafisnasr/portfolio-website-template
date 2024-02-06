@@ -1,0 +1,24 @@
+.navbar-toggler-icon {
+  background-color: var(--white);
+  border-radius: 0.3rem;
+}
+.navbar {
+  background-color: var(--darkblue);
+  padding: 1rem;
+}
+.nav-item a {
+  color: var(--white);
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.nav-item a:hover {
+  color: var(--orange);
+}
+.navbar .submit-btn {
+  padding: 0.3rem 1.2rem;
+  border-radius: 1rem !important;
+}
+.navbar .submit-btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}

@@ -1,0 +1,14 @@
+/* progress box styles */
+.progressbox{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 1rem;
+}
+.progressbox .title{
+    color: var(--white);
+}
+.progress-bar{
+    background-color: var(--orange) !important;
+}
+/**/

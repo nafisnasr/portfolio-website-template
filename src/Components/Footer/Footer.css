@@ -1,0 +1,84 @@
+/* Footer Styles */
+.footer {
+  padding: 1rem;
+  background-color: var(--darkblue);
+}
+.footer .wrapper {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem 0rem;
+}
+.footer .left-box,
+.footer .righ-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  color: var(--white);
+}
+.footer .left-box {
+  align-items: flex-start;
+}
+.footer .left-box .info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.footer .left-box .info-box .text {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.footer .right-box {
+  align-items: center;
+}
+.footer .right-box .input-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .right-box .input-box .duplicated-input {
+  width: 48%;
+}
+.footer .right-box .input {
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.7rem;
+  background-color: var(--input);
+  color: var(--white);
+}
+.footer .right-box .input::placeholder {
+  color: var(--white);
+}
+.footer .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .btn-container button {
+  transition: all 0.3s;
+  width: 80%;
+}
+.footer .btn-container button:hover {
+  background-color: var(--purple);
+}
+.copyright {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 0.8rem;
+}
+.copyright .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/**/

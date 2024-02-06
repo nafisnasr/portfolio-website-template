@@ -1,0 +1,30 @@
+/* About Styles */
+.about {
+  background-color: var(--darkblue);
+  padding: 2rem;
+}
+.about .wrapper {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about .text-container,
+.about .img-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem 0rem;
+  color: var(--white);
+  padding: 1rem;
+  flex-direction: column;
+}
+.about .more-btn {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+.about .more-btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+/**/

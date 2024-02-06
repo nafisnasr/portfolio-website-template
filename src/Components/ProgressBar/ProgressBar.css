@@ -1,0 +1,11 @@
+/* ProgressBar Styles */
+.progressbar{
+    background-color: var(--darkblue);
+    padding: 2rem;
+}
+.progressbar .wrapper{
+    margin: 2rem 0rem;
+}
+
+
+/**/

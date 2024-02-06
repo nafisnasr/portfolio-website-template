@@ -1,0 +1,12 @@
+/* Services Section Styles */
+.services {
+  padding: 2rem;
+  background-color: var(--purple);
+}
+.services .wrapper {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/**/

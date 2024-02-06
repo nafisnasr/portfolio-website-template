@@ -1,0 +1,30 @@
+/* Img Box Styles */
+.img-box {
+  margin: 0.7rem 0rem;
+  transition: all 0.3s;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  position: relative;
+}
+.img-box .text {
+  position: absolute;
+  color: var(--white);
+  top:90px ;
+  right: 70px;
+  z-index:99;
+  visibility: hidden;
+}
+.img-box img {
+  width: 100%;
+  z-index: 1;
+}
+.img-box:hover.img-box img {
+  opacity: 0.5;
+}
+.img-box:hover {
+  background-color: var(--hovered-purple);
+}
+.img-box:hover.img-box .text{
+    visibility: visible;
+}
+/**/
